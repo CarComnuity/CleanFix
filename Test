@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CleanFix - Auto Detailing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #004e8f;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #003763;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #003763;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/9f133bfd-ddaa-4698-a3b9-fe84ae8262d8.jpg" alt="CleanFix Logo">
+    <h1>Dein mobiler Profi für strahlenden Autoglanz</h1>
+  </header>
+
+  <nav>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#warum">Warum CleanFix?</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section id="leistungen">
+    <h2>Unsere Leistungen</h2>
+    <div class="card">
+      <h3>Standard-Reinigung</h3>
+      <p><strong>Innen:</strong> 35 € – Staubsaugen, Armaturen wischen, Fenster innen reinigen<br>
+         <strong>Außen:</strong> 40 € – Handwäsche, Felgen reinigen, Trocknung<br>
+         <strong>Komplett:</strong> 75 €</p>
+    </div>
+    <div class="card">
+      <h3>Premium-Reinigung</h3>
+      <p><strong>Innen:</strong> 60 € – Polster-/Lederpflege, Tiefenreinigung, Geruchsbeseitigung<br>
+         <strong>Außen:</strong> 60 € – Lackversiegelung, Felgenpflege, Reifenpflege<br>
+         <strong>Komplett:</strong> 120 €</p>
+    </div>
+    <div class="card">
+      <h3>Extras</h3>
+      <p>Lackpolitur / Polieren – Preis auf Anfrage</p>
+    </div>
+  </section>
+
+  <section id="warum">
+    <h2>Warum CleanFix?</h2>
+    <ul>
+      <li>✅ Gründlich & schonend</li>
+      <li>✅ Mobiler Service – wir kommen zu dir</li>
+      <li>✅ Faire Preise & Top-Qualität</li>
+      <li>🎉 10 % Rabatt auf deine erste Reinigung!</li>
+    </ul>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>📞 Telefon / WhatsApp: <strong>0123 4567890</strong></p>
+    <p>📷 Instagram: <strong>@cleanfix_detailing</strong></p>
+    <p>✉️ Jetzt Termin sichern!</p>
+  </section>
+
+  <footer>
+    &copy; 2025 CleanFix Auto Detailing – Alle Rechte vorbehalten
+  </footer>
+</body>
+</html>
